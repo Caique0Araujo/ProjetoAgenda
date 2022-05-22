@@ -1,0 +1,595 @@
+
+/* Geral */
+
+
+    body { 
+
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin: 0;
+        align-items: center;
+        height:100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: linear-gradient(180deg, rgba(54,140,211,1) 0%, rgba(54,140,211,1) 30%, rgb(0, 62, 116) 100%);
+
+    }
+    
+
+
+
+/* Tags H1 e Imagens */
+
+
+    .titles {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 22px;
+        font-size: 23px;
+        text-shadow: 0.1em 0.1em 0.1em rgba(119, 119, 119, 0.5);
+        color: rgb(34, 34, 34);
+
+    }
+
+
+
+    #title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        margin: 3px;
+        color: azure;
+        background-color: transparent;
+    }
+
+    #img1 {
+        width: auto;
+        padding: 0px;
+        margin: 0;
+    }
+
+
+/* Div center e tag A classe alink */
+
+    .center{
+        margin-top: 5%;
+        margin-bottom: 40px;
+        padding: 10px;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .aLink:link, a:visited {
+        background-color: rgba(54,140,211,1);
+        color: white;
+        border: 1px solid rgba(54,140,211, 0.5);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .aLink:hover, a:active {
+        background-color: #135ea5;
+        color: white;
+    }
+
+
+
+
+/* Menu horizontal do index */
+
+
+    nav {
+        
+        background-color: #10416f;
+        color: White;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        overflow: hidden;
+        height: 25%;
+        
+        
+    }
+
+    .menu {
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+        margin: 20px;
+        padding: 0;
+        width: 100%;
+        list-style: none;
+    }
+
+
+
+    #title + li {
+        margin-left: 35%;
+        padding-right: 20px;
+    }
+
+    .menu>li{
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: large;
+        padding: 0px 0px 20px 30px;;
+        cursor: pointer;
+    }
+
+    .menu>li:hover .submenu{
+        font-weight: lighter;
+        font-size: medium;
+        display: block;
+        position: absolute;
+    }
+
+    .submenu {
+        font-size: 10px;
+        display: none;
+        padding: 10px 15px;
+        list-style: none;
+        background-color: rgb(6, 150, 216);
+    }
+    .submenu>li{
+        padding: 5px;
+        cursor: pointer;
+    }
+    a {
+        text-decoration: none;
+        color: White;
+        
+    }
+    
+    li:hover {
+        text-decoration: underline;
+    }
+
+    
+
+/* Login form */
+
+
+    #aLogin {
+
+        top: 50%;
+        left: 5px;
+        color: #494949;
+        font-size: 16px;
+
+    }
+
+    .cadastroContatoEvento{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        background-color: rgb(238, 238, 238);
+        border-radius: 10px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+        text-align: center;
+        align-content: center;
+        margin-bottom: auto;
+        padding: auto;
+    }
+
+    .cadastroContatoEvento p{
+        text-shadow: 0.1em 0.1em 0.3em rgba(38, 162, 245, 0.425);
+        padding-bottom: 8%;
+        padding-left: 4%
+    }
+
+    .cadastroContatoGrupo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        background-color: rgb(238, 238, 238);
+        border-radius: 10px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+        text-align: center;
+        align-content: center;
+        margin-bottom: auto;
+        padding: auto;
+    }
+
+    .cadastroContatoGrupo p{
+        text-shadow: 0.1em 0.1em 0.3em rgba(38, 162, 245, 0.425);
+        padding-bottom: 8%;
+        padding-left: 4%
+    }
+    
+
+    .cadastroEvento{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        background-color: rgb(238, 238, 238);
+        border-radius: 10px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+        text-align: center;
+        align-content: center;
+        margin-bottom: auto;
+        padding: auto;
+    }
+    .cadastroEvento p{
+        text-shadow: 0.1em 0.1em 0.3em rgba(38, 162, 245, 0.425);
+        padding-bottom: 8%;
+        padding-left: 4%
+    }
+
+
+    .cadastroGrupos{   
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        background-color: rgb(238, 238, 238);
+        border-radius: 10px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+        text-align: center;
+        align-content: center;
+        margin-bottom: auto;
+        padding: auto;
+    
+    }
+
+    .cadastroContatos{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        background-color: rgb(238, 238, 238);
+        border-radius: 10px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+        text-align: center;
+        align-content: center;
+        margin-bottom: auto;
+        padding: auto;
+    }
+
+    .cadastroContatos h1{
+        text-shadow: 0.0em 0.0em 0.3em rgba(173, 173, 173, 0.61);
+    
+    }
+
+    .cadastroContatos p{
+        text-shadow: 0.1em 0.1em 0.3em rgba(38, 162, 245, 0.425);
+        padding-bottom: 8%;
+        padding-left: 4%
+
+    }
+
+    .botaoCadCont{
+        margin-bottom:3%;
+        margin-top:3%;
+    }
+
+    #imgcheck{
+        align-items: left;
+        align-content: left;
+        position: absolute;
+        left: 12%;
+        width: 30px;
+        bottom:40%;
+        padding-top: 20px;
+        padding-bottom: 2px;
+    }
+
+    #imgcheck2{
+        align-items: left;
+        align-content: left;
+        position:fixed;
+        left: 8%;
+        width: 30px;
+        bottom:40%;
+        padding-top: 20px;
+        padding-bottom: 2px;
+    }
+
+    #imgerror{
+        align-items: left;
+        align-content: left;
+        position: absolute;
+        left: 16%;
+        width: 30px;
+        bottom:40%;
+        padding-top: 20px;
+        padding-bottom: 2px;
+    }
+
+    .cadastroContatoGrupo img{
+        width:500px;
+    }
+
+    .cadastroDiv{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+    }
+
+    .cadastroDiv h1{
+        text-align: center;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid silver;
+    }
+
+    .cadastroDiv form {
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
+    .buttonSubmitcad{
+        width: 80%;
+        height: 50px;
+        background: #abcddd;
+        font-size: 18px;
+        color: #0b7cb1;
+        font-weight: lighter;
+        border-radius: 37px;
+        cursor: pointer;
+        margin: 30px 0px;
+        outline: none;
+        border:0.5px solid #d0ecf8;
+    }
+
+    .buttonSubmitcad:hover {
+        border-color: #0b7cb1;
+        transition: .8s;
+    }
+    .verificaCadastro{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        background-color: rgb(248, 248, 248);
+        border-radius: 10px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+        text-align: center;
+        align-content: center;
+        margin-bottom: auto;
+        padding: auto;
+    }
+    .verificaCadastro h1{
+        color: black;
+        text-align: center;
+        padding: 0 0 0px 0;
+    }
+    .verificaCadastro p{
+        color: black;
+        font-size: 15px;
+        text-align: center;
+        padding: 8px 0 0px 0;
+    }
+
+    form .combo_box {
+        align-items: center;
+        align-content: center;
+        padding-left: 60px;
+        padding-top:10px;
+        width: 100%;
+        padding-bottom: 6px;
+        height: 40px;
+        font-size: 30px;
+        border: none;
+        background: none;
+        outline: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    form label {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: black;
+    }
+
+    form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    }
+    .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    }
+    .txt_field label{   
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+    }
+    .txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+    }
+    .txt_field input:focus ~ label,
+    .txt_field input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+    }
+    .txt_field input:focus ~ span::before,
+    .txt_field input:valid ~ span::before{
+    width: 100%;
+    }
+
+    .txt_field input {
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .txt_field label {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        color: #adadad;
+        transform: translateY(-50%);
+        font-size: 16px;
+        pointer-events: none;
+        transition: .5s;
+
+        
+    }
+
+    .buttonSubmit{
+        width: 100%;
+        height: 50px;
+        border: 1px solid;
+        background: #2691d9;
+        border-radius: 25px;
+        font-size: 18px;
+        color: #e9f4fb;
+        font-weight: 700;
+        cursor: pointer;
+        margin: 30px 0px;
+        outline: none;
+    }
+
+    .buttonSubmit:hover {
+        border-color: #2691d9;
+        transition: .5s;
+    }
+
+    .buttonDelete{
+        width: 100%;
+        height: 50px;
+        border: 1px solid;
+        background: #ce2121;
+        border-radius: 25px;
+        font-size: 18px;
+        color: #e9f4fb;
+        font-weight: 700;
+        cursor: pointer;
+        margin: 5px 0px 20px;
+        outline: none;
+    }
+
+    .buttonDelete:hover {
+        border-color: #ce2121;
+        transition: .5s;
+    }
+
+    .cadastroLink{
+        margin: 30px 0;
+        text-align: center;
+        font-size: 16px;
+        color: #666666;
+    }
+    .cadastroLink a{
+        color: #2691d9;
+        text-decoration: none;
+    }
+    .cadastroLink a:hover{
+        text-decoration: underline;
+    }
+  
+/* Botões */
+
+    .botaoEditar{
+        background-color: #3199fa;
+        height: 25px;
+        padding: 5px;
+        width: auto;
+        color: #ffffff;
+        font-family: sans-serif;
+        border: none;
+        margin: 5px;
+        cursor: pointer;
+
+    }
+
+/* Tabelas */
+
+    .tituloTabela{
+        font-size: xx-large;
+        margin-top: 7%;
+        margin-bottom: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75%;
+        width: 100%;
+    }
+
+
+    .styled-table {
+        border-collapse: collapse;
+        width: 80%;
+        height: 100%;
+        margin-left: auto; 
+        margin-right: auto;
+        margin-bottom: 20px;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+
+    .styled-table tr {
+        background-color: #135ea5;
+        color: #ffffff;
+        text-align: left;
+    }
+
+
+    .styled-table th,
+    .styled-table td {
+        padding: 12px 15px;
+    }
+
+
+    .styled-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+        
+    }
+
+    .styled-table td{
+        color: #10416f;
+        font-size: large;
+        font-weight: 500;
+        background-color: #ffffff;
+    }
+
+    .styled-table tbody {
+        border-bottom: 2px solid #135ea5;
+    }
+
+
+
